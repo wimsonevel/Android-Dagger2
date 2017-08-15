@@ -30,6 +30,6 @@ public class MainActivity extends AppCompatActivity {
                 .putString(userService.getUser().getId(), userService.getUser().toString())
                 .apply();
 
-        message.setText("New User Inserted : " + sharedPref.getString(User.class.getSimpleName(), ""));
+        message.setText("New User Inserted : " + sharedPref.getString(userService.getUser().getId(), ""));
     }
 }
