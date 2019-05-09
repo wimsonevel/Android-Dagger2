@@ -1,7 +1,7 @@
 package example.wim.androiddagger2;
 
 import android.content.SharedPreferences;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.widget.TextView;
 
